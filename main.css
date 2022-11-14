@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap");
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  margin: 0;
+  padding: 0;
+  line-height: 1.5;
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  font-size: 1.6rem;
+  background-color: rgb(115, 176, 233);
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  width: 500px;
+  border-radius: 7px;
+  background-color: #fff;
+  color: rgb(92, 92, 92);  
+  margin-top: 3rem;
+}
+
+.container h2 {
+  margin: 0;
+  padding: 1.8rem 2rem;
+  font-weight: bold;
+  font-size: 3.5rem;
+  margin-bottom: 1rem;
+  border-bottom: 1px solid rgb(122, 121, 121);
+  color: #000;
+}
+
+
+.container .content {
+    padding: 1rem;
+    font-size: 2.5rem;
+    
+}
+
+.content .content-word {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 4rem;
+    font-weight: bold;
+    letter-spacing: 24px;
+    margin: 0;
+    color: #000;
+    
+}
+
+.content input {
+    width: 100%;
+    padding: 1.8rem 1.1rem;
+    font-size: 2rem;
+    border-radius: 5px;
+    border: 1px solid lightgrey;
+}
+
+.content .buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+}
+
+.buttons .refresh-word, .buttons .check-word {
+    padding: 1.8rem 5.6rem;
+    font-size: 2rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #fff;
+}
+
+.button__darkgrey{
+    background-color: rgb(138, 137, 137);
+}
+
+.button__lightblue {
+    background-color: rgb(41, 71, 206);
+}
